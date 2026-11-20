@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harold Duhaylungsod | Student Portfolio</title>
+        <meta
+            name="description"
+            content="Harold Duhaylungsod’s first-year IT portfolio: beginner web projects, class notes, and the skills he is learning."
+        >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            
+            html {
+                scroll-behavior: smooth;
+            }
+
+            a:focus-visible {
+                outline: 3px solid #93c5fd;
+                outline-offset: 5px;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: -80px;
+                left: 20px;
+                padding: 10px 16px;
+                background-color: white;
+                color: #000000;
+            }
+
+            .skip-link:focus {
+                top: 10px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+
+                a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-neutral-900 pt-36 font-sans leading-relaxed text-slate-100 sm:pt-20">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header
+            class="fixed inset-x-0 top-0 z-50 h-36 border-b border-slate-600 bg-slate-900/95 backdrop-blur-sm sm:h-20"
+        >
+            <div
+                class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5"
+            >
+                <a class="text-xl font-semibold tracking-tight" href="#home">Harold Duhaylungsod<span class="text-rose-300">.</span></a>
+                <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+                    <a class="text-slate-300 hover:text-rose-300 py-2 text-sm" href="#home">Home</a>
+                    <a class="text-slate-300 hover:text-rose-300 py-2 text-sm" href="#about">About</a>
+                    <a class="text-slate-300 hover:text-rose-300 py-2 text-sm" href="#skills">Skills</a>
+                    <a class="text-slate-300 hover:text-rose-300 py-2 text-sm" href="#projects">Projects</a>
+                    <a class="text-slate-300 hover:text-rose-300 py-2 text-sm" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+            <section
+                id="home"
+                class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16"
+                aria-label="Introduction"
+            >
+                <div>
+                    <p class="mb-5 font-mono text-sm text-rose-300">BSIT-1D/ FIRST YEAR</p>
+                    <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">Harold Duhaylungsod<span class="text-rose-300">.</span><br><span class="text-rose-300">Aspiring IT Professional.<br>Taking the first step.</span></h1>
+                    <p class="max-w-xl text-lg text-slate-300">
+                        I’m learning how to turn simple ideas into web pages.
+                         This is where I practice my skills, complete class activities, and explore new things in web development.
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-6">
+                        <a
+                            class="rounded bg-rose-300 px-5 py-3 font-semibold text-slate-900 transition hover:bg-rose-200"
+                            href="#projects"
+                        >
+                            My Projects
+                        </a>
+                        <a
+                            class="text-slate-100 underline underline-offset-4 hover:text-blue-300"
+                            href="#about"
+                        >
+                            About Me
+                        </a>
+                    </div>
+                </div>
+                <figure class="mx-auto w-full max-w-sm">
+                    <img
+                        class="w-full rounded-md bg-slate-800 object-contain"
+                        src="assets/images/my-picture.jpg"
+                        alt="Illustrated avatar of Harold wearing glasses, a slate hoodie, and a soft-blue shirt"
+                        width="500"
+                        height="500"
+                    >
+                    <figcaption class="mt-3 flex justify-between gap-4 text-xs text-slate-300"><span>Harold Duhaylungsod</span><span>First year · BSIT</span></figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="grid gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-labelledby="about-title"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-rose-300">GETTING TO KNOW ME!</p>
+                    <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">A student learning,<br>growing, and discovering new possibilities </h2>
+                    <p class="mb-5 text-slate-300">
+                        I’m Harold Duhaylungsod, a first-year Information Technology student at Cordova Public College. 
+                        I chose IT because I want to learn how technology works and create something useful with my own ideas.
+                    </p>
+                    <p class="mb-5 text-slate-300">
+                        I'm still learning the basics of web development. Sometimes my code works perfectly, and sometimes I have to fix a few mistakes.
+                        Every experience helps me learn something new.
+                    </p>
+                    <p class="text-slate-300">
+                        After class, I play games, I enjoy singing,  
+                        and I also enjoy cycling and exploring new places.
+                    </p>
+                </div>
+                <div>
+                    <aside class="rounded-md bg-slate-800 p-6">
+                        <p class="mb-4 font-mono text-xs text-rose-300">MY COLLEGE CHAPTER</p>
+                        <h3 class="mb-3 text-xl font-semibold">BS Information Technology</h3>
+                        <p class="mb-4 text-slate-300">Cordova Public College<br>First year · 2026 — Present</p>
+                        <p class="text-sm text-slate-300">Introduction to Computing, Computer Programming, and Web Development Fundamentals.</p>
+                    </aside>
+                    <p class="mt-6 text-slate-300">
+                        This year, I want to improve my coding skills, create better websites,
+                         and learn how to solve problems on my own.
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="py-16" aria-labelledby="skills-title">
+                <p class="mb-4 font-mono text-sm text-rose-300">WHAT I’M LEARNING</p>
+                <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">New skills. Fresh ideas.</h2>
+                <div class="grid gap-x-12 md:grid-cols-2">
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-rose-300">01 / BUILDING WEB PAGES</p>
+                        <h3 class="mb-3 text-2xl font-semibold">HTML5</h3>
+                        <p class="text-slate-300">
+                            I'm learning how to organize text, add images, and create links using HTML. 
+                            I practice turning a blank file into a simple web page.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-rose-300">02 / STYLING &amp; DESIGN</p>
+                        <h3 class="mb-3 text-2xl font-semibold">CSS3</h3>
+                        <p class="text-slate-300">
+                            I'm learning how to change colors, fonts, sizes, and spacing. 
+                            I experiment with different styles to make my web pages look better.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-rose-300">03 / RESPONSIVE DESIGN</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Mobile-Friendly Layouts</h3>
+                        <p class="text-slate-300">
+                           I'm learning how to make websites adjust to different screen sizes.
+                            I practice creating layouts that work well on both computers and mobile phones.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-rose-300">04 / BASIC PROGRAMMING</p>
+                        <h3 class="mb-3 text-2xl font-semibold">C++</h3>
+                        <p class="text-slate-300">
+                            I'm learning how to use variables, input, output, and conditional statements. 
+                                I practice writing simple programs and understanding how each instruction works.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" class="py-16" aria-labelledby="projects-title">
+                <div class="mb-10 grid items-end gap-6 md:grid-cols-2">
+                    <div>
+                        <p class="mb-4 font-mono text-sm text-rose-300">MY FIRST PROJECTS</p>
+                        <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">Simple ideas brought to life.</h2>
+                    </div>
+                    <p class="text-slate-300">Two simple projects that helped me improve my web development skills. 
+                        Each preview shows what I created while learning the basics of HTML and CSS.</p>
+                </div>
+                <div class="space-y-12">
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/schedule.png"
+                            alt=" class schedule with organized rows and columns, clear headings, and a simple blue-and-white design.
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-rose-300">01 / HTML &amp; CSS</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">CLASS SCHEDULE</h3>
+                            <p class="mb-5 text-slate-300">
+                                A simple class schedule showing my subjects, and my professor's name.
+                                 I practiced organizing information into a clear and easy-to-read table.
+                            </p>
+                            <a
+                                class="text-sm text-rose-300 underline underline-offset-4 hover:text-rose-200"
+                                href="assets/images/schedule.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/repair-request-form.png"
+                            alt="A basic repair request form for reporting computer problems. I practiced creating input fields, labels, and buttons to make it easy for users to describe technical issues."
+                            width="800"
+                            height="500"    
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-rose-300">02 / HTML &amp; CSS</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">REPAIR REQUEST FORM</h3>
+                            <p class="mb-5 text-slate-300">
+                                A basic repair request form for reporting computer problems. I practiced creating input fields, labels, 
+                                and buttons to make it easy for users to describe technical issues.
+                            </p>
+                            <a
+                                class="text-sm text-rose-300 underline underline-offset-4 hover:text-rose-200"
+                                href="assets/images/repair-request-form.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                        
+                        
+                    </article>
+                </div>
+            </section>
+            <section
+                id="contact"
+                class="grid items-start gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-label="Contact"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-rose-300">CONTACT ME</p>
+                    <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">Lets learn<br>something together.</h2>
+                    <p class="max-w-lg text-slate-300">
+                        I'm happy to talk about coding activities, web development projects, 
+                        or anything I'm learning in IT. Send me an email, and let's share ideas!
+                    </p>
+                </div>
+                <div class="rounded-md bg-slate-800 p-6 md:p-8">
+                    <p class="mb-4 text-sm text-slate-300">Get in Touch</p>
+                    <a
+                        class="break-words text-xl font-semibold text-rose-300 underline underline-offset-4 hover:text-rose-200"
+                        href="mailto:haroldduhaylungsod62@gmail.com"
+                    >
+                        haroldduhaylungsod62@gmail.com
+                    </a>
+                    <div class="mt-8 border-t border-slate-600 pt-5 text-sm text-slate-300">
+                        <p>Bangbang, Cordova, Cebu</p>
+                        <p class="mt-2">Cordova Public College · BSIT-1D</p>
+                        <p class="mt-4">Usually online after class.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-slate-600">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-slate-300"
+            >
+                <p>© 2026 Harold Duhaylungsod</p>
+                <p>BSIT-1D, first year · Cordova, Cebu</p>
+            </div>
+        </footer>
+    </body>
+</html>
